@@ -10,7 +10,7 @@ function createWindow() {
     height: 670,
     show: false,
     autoHideMenuBar: true,
-    title: '赖的app',
+    title: 'app',
     // icon: join(__dirname, '../renderer/src/assets/图片占位.png'),
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
